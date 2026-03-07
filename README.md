@@ -1,138 +1,119 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
 # VAJRA AI
+### Virtual Autonomous Journey for Reliability & Availability
 
-**Virtual Autonomous Journey for Reliability & Availability**
+VAJRA AI is an AI-driven reliability platform that predicts failures, detects threats, analyzes incidents, and recommends remediation before outages impact customers.
 
-## Overview
+This project demonstrates an AI Command Center prototype built for the AI for Bharat Hackathon.
 
-VAJRA AI is an enterprise-grade AI platform that predicts failures, prevents outages, blocks bot attacks, and autonomously heals production systems - protecting millions in revenue for digital businesses.
+---
 
-## Key Features
+# Overview
 
-- 🔮 **Predictive AI** - Forecasts failures before they impact users
-- 🛡️ **Bot Protection** - Advanced behavioral analysis and threat detection
-- 🤖 **Autonomous Healing** - Self-healing systems with safety controls
-- 📊 **Observability Intelligence** - Multi-signal correlation and anomaly detection
-- 🧠 **AI Incident Brain** - Root cause analysis and incident learning
-- 🔐 **Security Intelligence** - Real-time threat detection and response
-- 💰 **Revenue Protection** - Business impact modeling and SLA management
-- 🌐 **Cloud-Agnostic** - Deploy on AWS, Azure, GCP, or on-premises
+Modern cloud systems run hundreds or thousands of microservices.  
+When incidents occur, engineers must manually analyze logs, metrics, and alerts to determine root cause.
 
-## Platform Positioning
+VAJRA AI introduces an AI-powered operations platform that:
 
-VAJRA AI is **not an operating system** - it's a sophisticated AI platform/tool that runs on existing infrastructure, designed for enterprise-scale production environments with 1000+ services.
+• Predicts failures before they occur  
+• Detects bot attacks and abnormal traffic  
+• Performs automated incident analysis  
+• Estimates revenue impact  
+• Suggests remediation actions  
+• Simulates infrastructure behaviour using a Digital Twin
 
-## Architecture
+---
 
-The platform integrates:
-- Observability Engine
-- AI Incident Brain
-- Predictive Engine
-- Security Intelligence
-- Bot Protection System
-- Autonomous Remediation Engine
-- Digital Twin Simulation
-- Conversational AI Layer
+# Key Features
 
-## Documentation
+### Predictive Failure Detection
+Forecasts system degradation before customer impact.
 
-- [Requirements Document](requirements.md) - Detailed requirements and user stories
-- [Design Document](design.md) - System architecture and design specifications
+### AI Incident Analysis
+Uses AI models to summarize incidents and identify root causes.
 
-## Enterprise Scale
+### Bot Attack Monitoring
+Visualizes malicious traffic and threat intelligence signals.
 
-- Supports 1000+ services simultaneously
-- Handles 1 million+ events per second per cluster
-- 99.99% availability with automated failover
-- Multi-region deployment with data synchronization
+### Service Telemetry Monitoring
+Displays system health indicators such as CPU, latency and errors.
 
-## Technology Stack
+### Revenue Impact Estimation
+Estimates financial impact caused by system outages.
 
-- **AI/ML**: Vector embeddings, RAG, time series forecasting
-- **Infrastructure**: Kubernetes, cloud-agnostic deployment
-- **Data**: Real-time event streaming, vector stores
-- **Security**: Zero-trust architecture, end-to-end encryption
+### Autonomous Remediation (Concept)
+Recommends automated corrective actions.
 
-## Status
+### Digital Twin Simulation
+Simulates system behavior to test remediation strategies safely.
 
-🚧 **In Development** - Currently in specification and design phase
+---
 
-## License
+# Architecture
 
-[Add your license here]
+VAJRA AI consists of several logical components:
 
-## Contact
+• Observability Engine  
+• AI Incident Brain  
+• Predictive Failure Engine  
+• Security Intelligence Layer  
+• Bot Protection System  
+• Autonomous Remediation Engine  
+• Digital Twin Simulation Layer  
+• Conversational AI Interface
 
-[Add your contact information]
->>>>>>> 7eae34049af693056b70bdea35ea56483dee3fc0
+---
+
+# Technology Stack
+
+Frontend  
+React  
+Material UI  
+
+Backend  
+AWS Lambda  
+API Gateway  
+
+AI Layer  
+Amazon Bedrock (Claude)  
+
+Infrastructure  
+AWS Cloud
+
+---
+
+# Running the Project
+
+Install dependencies
+
+npm install
+
+Start development server
+
+npm start
+
+Build production version
+
+npm run build
+
+---
+
+# Hackathon Submission
+
+This repository contains the prototype submitted for:
+
+AI for Bharat Hackathon
+
+The goal is to demonstrate how AI can transform site reliability engineering and incident management.
+
+---
+
+# Author
+
+Shobhit Verma  
+Technology Leader | Builder of VAJRA AI
+
+---
+
+# License
+
+C-Shobhit verma aka TheJugaadSRE
