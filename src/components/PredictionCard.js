@@ -82,7 +82,7 @@ export default function PredictionCard() {
       </p>
 
       <p>
-        Last updated: {data.timestamp}
+        Last updated: {new Date().toLocaleString()}
       </p>
 
       <p style={{fontSize:"12px", opacity:0.7}}>
