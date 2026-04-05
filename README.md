@@ -4,6 +4,7 @@
 VAJRA AI is an AI-driven reliability platform that predicts failures, detects threats, analyzes incidents, and recommends remediation before outages impact customers.
 
 This project demonstrates an AI Command Center prototype built for the AI for Bharat Hackathon.
+This was shortisted to 2nd Round and from there we created complete walk through demo for this
 
 ---
 
